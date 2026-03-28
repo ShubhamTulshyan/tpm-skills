@@ -1,6 +1,11 @@
 {
-  "id": "YH-07",
-  "name": "Offer Calculator",
-  "family": "strategy",
-  "layer": 1
+  "id": "SK-07",
+  "name": "ROI Scorer",
+  "family": "evaluation",
+  "layer": 2,
+  "description": "Calculates promotion ROI by comparing incremental profit generated against promotion costs",
+  "data_requirements": ["promotion_cost", "incremental_revenue", "margin_rate"],
+  "has_tool": true,
+  "dependencies": ["SK-05", "SK-06"],
+  "status": "scaffold"
 }
