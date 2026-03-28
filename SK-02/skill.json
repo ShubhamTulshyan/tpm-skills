@@ -1,0 +1,11 @@
+{
+  "id": "YH-02",
+  "name": "Timing Optimizer",
+  "family": "strategy",
+  "layer": 1,
+  "description": "Optimizes promotion timing to maximize impact based on seasonality, competitive activity, and inventory levels",
+  "data_requirements": [],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
+}
