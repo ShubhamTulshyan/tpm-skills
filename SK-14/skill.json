@@ -1,6 +1,11 @@
 {
-  "id": "YH-14",
-  "name": "Missing Value Imputer",
-  "family": "evaluation",
-  "layer": 2
+  "id": "SK-14",
+  "name": "Competitive Impact Analyzer",
+  "family": "forward_intelligence",
+  "layer": 3,
+  "description": "Analyzes how promotions might trigger competitive responses and impact market share dynamics",
+  "data_requirements": ["promotion_visibility", "competitor_capabilities", "market_share_data"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
