@@ -1,6 +1,11 @@
 {
-  "id": "YH-13",
-  "name": "Impact Assessor",
-  "family": "evaluation",
-  "layer": 2
+  "id": "SK-13",
+  "name": "Market Response Modeler",
+  "family": "forward_intelligence",
+  "layer": 3,
+  "description": "Models competitor and customer behavioral responses to promotions to anticipate market dynamics",
+  "data_requirements": ["competitor_activity", "customer_behavior_patterns", "market_conditions"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
