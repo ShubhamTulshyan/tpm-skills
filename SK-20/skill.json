@@ -1,6 +1,11 @@
 {
-  "id": "YH-20",
-  "name": "Campaign Orchestrator",
+  "id": "SK-20",
+  "name": "Post-Event Reviewer",
   "family": "executive_control",
-  "layer": 4
+  "layer": 4,
+  "description": "Reviews promotion results post-execution and generates insights for continuous improvement",
+  "data_requirements": ["execution_results", "roi_metrics", "customer_feedback"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
