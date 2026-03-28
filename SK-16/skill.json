@@ -1,6 +1,11 @@
 {
-  "id": "YH-16",
-  "name": "Robustness Dale",
-  "family": "forward_intelligence",
-  "layer": 3
+  "id": "SK-16",
+  "name": "Anomaly Detector",
+  "family": "executive_control",
+  "layer": 4,
+  "description": "Detects anomalies and unexpected patterns in promotion execution and performance data",
+  "data_requirements": ["execution_data", "performance_data", "historical_patterns"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
