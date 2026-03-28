@@ -1,6 +1,11 @@
 {
-  "id": "YH-08",
-  "name": "Allocation Rightsizer",
-  "family": "strategy",
-  "layer": 1
+  "id": "SK-08",
+  "name": "Cannibalization Detector",
+  "family": "evaluation",
+  "layer": 2,
+  "description": "Detects and quantifies cannibalization of existing sales by promotional activities across SKUs and channels",
+  "data_requirements": ["baseline_sales", "promotional_sales", "related_sku_data"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
