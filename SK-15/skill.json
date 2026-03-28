@@ -1,6 +1,11 @@
 {
-  "id": "YH-15",
-  "name": "Recommendation Delivery",
-  "family": "forward_intelligence",
-  "layer": 3
+  "id": "SK-15",
+  "name": "Narrative Generator",
+  "family": "executive_control",
+  "layer": 4,
+  "description": "Generates clear executive narratives and business cases for promotion approvals with analysis backing",
+  "data_requirements": ["baseline_analysis", "lift_analysis", "roi_analysis"],
+  "has_tool": true,
+  "dependencies": ["SK-05", "SK-06", "SK-07"],
+  "status": "scaffold"
 }
