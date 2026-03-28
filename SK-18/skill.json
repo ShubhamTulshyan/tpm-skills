@@ -1,6 +1,11 @@
 {
-  "id": "YH-18",
-  "name": "Risk Monitor",
+  "id": "SK-18",
+  "name": "Calendar Optimizer",
   "family": "executive_control",
-  "layer": 4
+  "layer": 4,
+  "description": "Optimizes the promotional calendar to balance coverage, spacing, and resource constraints",
+  "data_requirements": ["planned_promotions", "calendar_constraints", "resource_capacity"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
