@@ -1,6 +1,11 @@
 {
-  "id": "YH-11",
-  "name": "Evaluation Framework Selector",
-  "family": "evaluation",
-  "layer": 2
+  "id": "SK-11",
+  "name": "Promotion Simulator",
+  "family": "forward_intelligence",
+  "layer": 3,
+  "description": "Simulates promotion outcomes using elasticity models and historical response patterns to forecast impact",
+  "data_requirements": ["mechanism_choice", "baseline_sales", "elasticity_parameters"],
+  "has_tool": true,
+  "dependencies": ["SK-01", "SK-05"],
+  "status": "scaffold"
 }
