@@ -1,6 +1,11 @@
 {
-  "id": "YH-19",
-  "name": "Learning Storage",
+  "id": "SK-19",
+  "name": "Approval Workflow Manager",
   "family": "executive_control",
-  "layer": 4
+  "layer": 4,
+  "description": "Manages approval workflows and ensures promotions meet governance requirements before execution",
+  "data_requirements": ["approval_rules", "stakeholder_feedback", "compliance_status"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
