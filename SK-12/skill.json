@@ -1,6 +1,11 @@
 {
-  "id": "YH-12",
-  "name": "Performance Auditor",
-  "family": "evaluation",
-  "layer": 2
+  "id": "SK-12",
+  "name": "Scenario Comparator",
+  "family": "forward_intelligence",
+  "layer": 3,
+  "description": "Compares multiple promotion scenarios to identify the best-performing option before execution",
+  "data_requirements": ["simulation_results", "scenario_parameters"],
+  "has_tool": false,
+  "dependencies": ["SK-11"],
+  "status": "scaffold"
 }
