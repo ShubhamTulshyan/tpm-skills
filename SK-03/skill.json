@@ -1,0 +1,11 @@
+{
+  "id": "SK-03",
+  "name": "Budget Allocator",
+  "family": "strategy",
+  "layer": 1,
+  "description": "Allocates promotion budget across products, regions, and channels to maximize overall ROI",
+  "data_requirements": [],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
+}
