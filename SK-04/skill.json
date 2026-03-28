@@ -1,6 +1,11 @@
 {
-  "id": "YH-04",
+  "id": "SK-04",
   "name": "Portfolio Balancer",
   "family": "strategy",
-  "layer": 1
+  "layer": 1,
+  "description": "Balances promotion portfolio across core and growth products to maintain healthy mix and minimize portfolio risk",
+  "data_requirements": [],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
