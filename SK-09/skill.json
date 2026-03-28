@@ -1,6 +1,11 @@
 {
-  "id": "YH-09",
-  "name": "Effectiveness Analyzer",
-  "family": "strategy",
-  "layer": 1
+  "id": "SK-09",
+  "name": "Halo Effect Measurer",
+  "family": "evaluation",
+  "layer": 2,
+  "description": "Measures positive spillover effects of promotion on complementary products and brand perception",
+  "data_requirements": ["promotional_sales", "adjacent_product_sales", "brand_sentiment_data"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
