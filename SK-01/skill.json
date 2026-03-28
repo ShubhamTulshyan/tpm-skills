@@ -1,9 +1,9 @@
 {
-  "id": "YH-01",
+  "id": "SK-01",
   "name": "Mechanism Selection",
   "family": "strategy",
   "layer": 1,
-  "description": "Selects optimal trade promotion mechanisms"(discount, bundle, gift-with-purchase, etc.) based on business objectives and market conditions",
+  "description": "Selects optimal trade promotion mechanisms (discount, bundle, gift-with-purchase, etc.) based on business objectives and market conditions",
   "data_requirements": [],
   "has_tool": false,
   "dependencies": [],
