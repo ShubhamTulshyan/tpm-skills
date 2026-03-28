@@ -1,6 +1,11 @@
 {
-  "id": "YH-17",
-  "name": "Adaptation Detector",
-  "family": "forward_intelligence",
-  "layer": 3
+  "id": "SK-17",
+  "name": "Fatigue Indexer",
+  "family": "executive_control",
+  "layer": 4,
+  "description": "Monitors promotion fatigue by tracking frequency, intensity, and customer response over time",
+  "data_requirements": ["promotion_history", "customer_engagement", "response_rates"],
+  "has_tool": true,
+  "dependencies": [],
+  "status": "scaffold"
 }
