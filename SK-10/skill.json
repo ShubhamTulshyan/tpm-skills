@@ -1,6 +1,11 @@
 {
-  "id": "YH-10",
-  "name": "Portfolio Monitor",
-  "family": "strategy",
-  "layer": 1
+  "id": "SK-10",
+  "name": "Compliance Checker",
+  "family": "evaluation",
+  "layer": 2,
+  "description": "Verifies that promotions comply with regulatory requirements, terms of trade, and company policies",
+  "data_requirements": ["promotion_details", "regulatory_rules", "policy_rules"],
+  "has_tool": false,
+  "dependencies": [],
+  "status": "scaffold"
 }
