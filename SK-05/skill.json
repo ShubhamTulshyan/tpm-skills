@@ -1,6 +1,11 @@
 {
-  "id": "YH-05",
-  "name": "Promotion Mix Optimizer",
-  "family": "strategy",
-  "layer": 1
+  "id": "SK-05",
+  "name": "Baseline Calculator",
+  "family": "evaluation",
+  "layer": 2,
+  "description": "Calculates baseline sales to isolate promotion-driven incremental sales and revenue lift",
+  "data_requirements": ["historical_sales", "promotional_dates"],
+  "has_tool": true,
+  "dependencies": [],
+  "status": "scaffold"
 }
